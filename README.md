@@ -17,6 +17,7 @@ Clone project to local repository.
 
 ```
 git clone https://github.com/ozkanada/IotDeviceControlAPI.git
+cd IotDeviceControlAPI
 git checkout test
 mvn install
 mvn spring-boot:run
