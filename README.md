@@ -9,10 +9,12 @@
 
 
 #1. Database
-I use mysql database. Database scripts is in src/main/resurces/database folder.
+
+Mysql database was used. Database script is in src/main/resurces/database folder.
 File name is eywa.sql. Open this file in mysql editor and than run.
 
 #2.Build Project
+
 Clone project to local repository.
 
 ```
@@ -28,6 +30,7 @@ mvn spring-boot:run
 You can use postman to test this api.  
 
 ###Save Device
+
 Request uri : http://localhost:8080/api/saveDevice
 
 ```
